@@ -1,12 +1,10 @@
 {
-  "name": "@ck12/responsive-container",
+  "name": "responsive-container",
   "version": "1.0.0",
-  "description": "React component for container based style queries",
-  "main": "lib/index.js",
+  "description": "Create component in react which are styled responsively for container based queries",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006 -c .storybook",
-    "prepublishOnly": "./node_modules/.bin/babel src --out-dir lib"
+    "storybook": "start-storybook -p 6006 -c .storybook"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
@@ -53,6 +51,6 @@
     "styled-components": "^5.3.0",
     "webpack": "^5.28.0"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "supminn",
+  "license": "MIT"
 }
